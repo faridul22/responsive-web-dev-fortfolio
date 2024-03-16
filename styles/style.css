@@ -265,7 +265,8 @@ input {
     /* Banner style */
     .nav_container,
     .banner_container,
-    .about_info_container {
+    .about_info_container,
+    .resume_container {
         flex-direction: column;
     }
 
