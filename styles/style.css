@@ -314,7 +314,6 @@ input {
     /* Banner style */
     .nav_container,
     .banner_container,
-    .about_info_container,
     .resume_container {
         flex-direction: column;
     }
@@ -339,8 +338,13 @@ input {
     }
 
     /* What i do section style */
-    .skill_container {
+    .skill_container,
+    .footer_container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* footer style */
