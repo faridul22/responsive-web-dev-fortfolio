@@ -235,7 +235,7 @@ main {
 
 
 /* footer style */
-.contact_section {
+.footer_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -290,7 +290,20 @@ input {
     }
 
     /* What i do section style */
-    .skill_container {
+    .skill_container,
+    .footer_container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer style */
+    .footer_container {
+        padding: 50px 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    textarea,
+    input {
+        width: 80%;
     }
 }
