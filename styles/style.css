@@ -258,3 +258,21 @@ input {
 .hide {
     display: none;
 }
+
+/* Responsive styles */
+@media screen and (max-width:576px) {
+
+    .nav_container,
+    .banner_container {
+        flex-direction: column;
+    }
+
+    .banner_content {
+        width: auto;
+    }
+
+    .banner_img {
+        width: 80%;
+        margin-top: 10px;
+    }
+}
