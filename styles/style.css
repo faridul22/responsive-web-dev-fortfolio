@@ -287,4 +287,9 @@ input {
     .about_info {
         margin: 10px 0;
     }
+
+    /* What i do section style */
+    .skill_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
