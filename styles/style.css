@@ -259,7 +259,7 @@ input {
     display: none;
 }
 
-/* Responsive styles */
+/* Responsive styles for small device */
 @media screen and (max-width:576px) {
 
     /* Banner style */
